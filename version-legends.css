@@ -1,0 +1,44 @@
+.tbc-version-legends {
+  padding: 16px;
+  min-width: 386px;
+  min-height: 201px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+  font-family: Inter, sans-serif;
+}
+
+.tbc-version-legends__title {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 22px;
+  padding: 0;
+}
+
+.tbc-version-legends__item-container {
+  line-height: 22px;
+  display: flex;
+  flex-direction: column;
+}
+
+.tbc-version-legends__item {
+  line-height: 22px;
+  display: flex;
+  gap: 5px;
+}
+
+.tbc-version-legends__item-key {
+  font-weight: 500;
+  padding: 0;
+  font-size: 14px;
+  line-height: 28px;
+}
+
+.tbc-version-legends__item-value {
+  font-weight: 400;
+  padding: 0;
+  font-size: 14px;
+  line-height: 28px;
+}
