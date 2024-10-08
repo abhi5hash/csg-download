@@ -1,0 +1,70 @@
+.tbc-download__download-options-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 899px;
+  font-family: 'Inter', sans-serif;
+}
+
+.tbc-download__download-options-container > h4 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #000;
+}
+
+.tbc-download__download-options-container > hr {
+  margin: 10px 0;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+.tbc-download__download-options-container > .options {
+  display: flex;
+  align-items: center;
+}
+
+.tbc-download__download-options-container > .options label {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.tbc-download__download-options-container input[type="radio"] {
+  appearance: none;
+  background-color: #fff;
+  margin-right: 10px;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+}
+
+.tbc-download__download-options-container input[type="radio"]:checked {
+  border-color: #2a5f8c;
+}
+
+.tbc-download__download-options-container input[type="radio"]:checked::before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #2a5f8c;
+}
+
+.tbc-download__download-options-container .option-text {
+  color: #000;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.tbc-download__download-options-container input[type="radio"]:checked + .option-text {
+  color: #2a5f8c;
+}

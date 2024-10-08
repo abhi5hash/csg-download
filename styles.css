@@ -1,2 +1,10 @@
-@import url('./accordion-dropdown.css');
-@import url('./version-legends.css');
+@import url("./accordion-dropdown.css");
+@import url("./version-legends.css");
+@import url("./employee-download-page.css");
+@import url("./download-options-container.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Inter, sans-serif;
+}

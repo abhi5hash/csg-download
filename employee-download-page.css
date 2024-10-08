@@ -1,0 +1,142 @@
+.tbc-download__heading-section {
+  border-bottom: 1px solid #ccc;
+  max-width: 899px;
+}
+
+.tbc-download__subTitle {
+  font-family: "Public Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.tbc-download__title {
+  font-family: "Public Sans", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  margin-bottom: 12px;
+}
+
+.tbc-download__version-flex {
+  display: flex;
+  gap: 24px;
+  padding: 24px 0;
+}
+
+.tbc-download__version-dropdown-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* checkbox styles */
+
+.tbc-download__eula-checkbox {
+  display: inline-block;
+  position: relative;
+}
+
+.tbc-download__eula-checkbox > input[type="checkbox"] {
+  /* Hide the default checkbox */
+  appearance: none;
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background-color: #fff;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+}
+
+.tbc-download__eula-checkbox >input[type="checkbox"]:checked {
+  border-color: #2a5f8c;
+  background-color: #2a5f8c;
+}
+
+.tbc-download__eula-checkbox > input[type="checkbox"]:checked::before {
+  content: "";
+  position: absolute;
+  top: 1px;
+  left: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.tbc-download__eula-checkbox > label {
+  cursor: pointer;
+  padding-left: 30px; /* Create space for the checkbox */
+}
+
+/* eula styles */
+
+.tbc-download__eula-container {
+  display: flex;
+  gap: 8px;
+  max-width: 899px;
+}
+
+.tbc-download__eula-heading {
+  color: #000;
+  font-family: "Public Sans", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+}
+.tbc-download__eula-heading > span {
+  color: #2a5f8c;
+}
+
+.tbc-download__eula-heading {
+  color: #000;
+  font-family: "Public Sans", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.tbc-download__elua-paragraph {
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+/* account type dropdown styles */
+
+.tbc-download__select-account-type-container {
+  margin-top: 24px;
+  margin-bottom: 20px;
+}
+
+/* download button styles */
+
+.tbc-download__download-button {
+  background-color: #2a5f8c;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.tbc-download__download-button:hover {
+  background-color: #1e4b6a;
+}
+
+.tbc-download__download-button:active {
+  background-color: #19415b;
+}
