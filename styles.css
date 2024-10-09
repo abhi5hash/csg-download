@@ -2,6 +2,7 @@
 @import url("./version-legends.css");
 @import url("./employee-download-page.css");
 @import url("./download-options-container.css");
+@import url("./download-options-accordion.css");
 
 * {
   margin: 0;

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <h2>TIBCO Accordion Example</h2>
+
+    <!-- Level 1 -->
+    <button class="download-options-accordion__accordion">
+      TIBCO Integration Documentation (v3.10.0)
+    </button>
+    <div class="download-options-accordion__panel">
+      <a href="#">TIB_tibco_3.10.0_license.pdf (v 3.10.0)</a>
+      <a href="#">TIB_tibco-int_3.10.0_readme.txt (v 3.10.0)</a>
+      <a href="#">TIB_tibco-int_RTU.txt (v 3.10.0)</a>
+    </div>
+
+    <!-- Level 1 -->
+    <button class="download-options-accordion__accordion">
+      TIBCO ActiveMatrix BusinessWorks (v 5.14.1)
+    </button>
+    <div class="download-options-accordion__panel">
+      <a href="#">TIBCO ActiveMatrix Spotfire Enabler Software (v 1.0.0)</a>
+
+      <!-- Level 2 -->
+      <button
+        class="download-options-accordion__accordion download-options-accordion__nested-accordion"
+      >
+        TIBCO Database Drivers Supplement Software (v 2.0.5)
+      </button>
+      <div class="download-options-accordion__panel download-options-accordion__nested-panel">
+        <a href="#">TIB_dbdrivers_2.0.5md5 (v 2.0.5)</a>
+        <a href="#">TIB_dbdrivers_2.0.5_documents.zip (v 2.0.5)</a>
+        <a href="#">TIB_dbdrivers_2.0.5_readme.txt (v 2.0.5)</a>
+
+        <!-- Level 3 -->
+        <button
+          class="download-options-accordion__accordion download-options-accordion__nested-accordion"
+        >
+          TIBCO Database Drivers Details (v 2.0.5)
+        </button>
+        <div class="download-options-accordion__panel download-options-accordion__nested-panel">
+          <a href="#">TIB_dbdrivers_2.0.5_relnotes.pdf (v 2.0.5)</a>
+          <a href="#">TIB_dbdrivers_2.0.5_installation.pdf (v 2.0.5)</a>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="/script.js"></script>
+</html>

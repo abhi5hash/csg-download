@@ -1,0 +1,64 @@
+.download-options-accordion__accordion {
+  cursor: pointer;
+  padding: 10px 0 10px 10px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  font-family: "Public Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  background-color: #fff;
+}
+
+.download-options-accordion__accordion:after {
+  content: "+";
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.download-options-accordion__accordion.active:after {
+  content: "-";
+}
+
+.download-options-accordion__panel {
+  padding: 0 0 0 18px;
+  display: none;
+  overflow: hidden;
+}
+
+/* Nested accordion for level 2 */
+.download-options-accordion__panel
+  .download-options-accordion__nested-accordion {
+  padding-left: 20px;
+}
+
+.download-options-accordion__panel
+  .download-options-accordion__nested-accordion,
+.download-options-accordion__panel a {
+  font-family: "Public Sans", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+/* Nested accordion for level 3 */
+.download-options-accordion__panel
+  .download-options-accordion__nested-accordion
+  .download-options-accordion__nested-panel {
+  padding-left: 20px;
+}
+
+.download-options-accordion__panel a {
+  color: #2a5f8c;
+  display: block;
+  padding-left: 10px;
+  border-left: 1px solid #ccc;
+  margin-left: 16px;
+}
