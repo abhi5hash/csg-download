@@ -3,6 +3,7 @@
 @import url("./employee-download-page.css");
 @import url("./download-options-container.css");
 @import url("./download-options-accordion.css");
+@import url("./email-modal.css");
 
 * {
   margin: 0;
