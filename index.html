@@ -20,28 +20,35 @@
   </head>
   <body>
     <!-- Trigger Button -->
-    <button id="openModal">Open Modal</button>
+    <button id="tbc-download-email-modal__openModal">Open Modal</button>
 
     <!-- Modal Structure -->
-    <div id="emailModal" class="modal">
-      <div class="modal-content">
-        <span class="close">&times;</span>
-        <h2>Email Product Download</h2>
-        <p>
+    <div id="tbc-download-email-modal__emailModal" class="tbc-download-email-modal__modal">
+      <div class="tbc-download-email-modal__modal-content">
+        <span class="tbc-download-email-modal__close">&times;</span>
+        <h2 class="tbc-download-email-modal__header">Email Product Download</h2>
+        <p class="tbc-download-email-modal__description">
           Please enter your email addresses below to receive the download link
           for the requested product version on all supported platforms.
         </p>
-        <form id="emailForm">
-          <label for="email">Email Addresses</label>
+        <form id="tbc-download-email-modal__emailForm">
+          <label for="email" class="tbc-download-email-modal__label"
+            >Email Addresses</label
+          >
           <textarea
-            id="email"
+            id="tbc-download-email-modal__email"
             name="email"
+            class="tbc-download-email-modal__textarea"
             placeholder="Enter Email addresses (Comma-separated, max 400 characters)"
             rows="4"
           ></textarea>
-          <small>*Separate multiple addresses with commas.</small>
-          <div class="button-container">
-              <button type="submit" id="submitRequest">Submit Request</button>
+          <small class="tbc-download-email-modal__note"
+            >*Separate multiple addresses with commas.</small
+          >
+          <div class="tbc-download-email-modal__button-container">
+            <button type="submit" id="tbc-download-email-modal__submitRequest">
+              Submit Request
+            </button>
           </div>
         </form>
       </div>
