@@ -1,3 +1,21 @@
+.tbc-download-email-modal__openModal-button {
+  background: transparent;
+  border: none;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+.tbc-download-email-modal__openModal-text {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px;
+  color: #2A5F8C;
+}
+
 .tbc-download-email-modal__modal {
   display: none;
   position: fixed;
